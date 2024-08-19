@@ -37,7 +37,7 @@ try {
     $mail->Body    = '<h1>Este é um e-mail em HTML</h1><p>Conteúdo do e-mail</p>';
     $mail->AltBody = 'Este é o corpo do e-mail em texto simples para clientes de e-mail que não suportam HTML';
 
-    // Enviar o e-mail
+    // Enviar o e-mail..
     $mail->send();
     echo 'E-mail enviado com sucesso<br>';
 } catch (Exception $e) {
